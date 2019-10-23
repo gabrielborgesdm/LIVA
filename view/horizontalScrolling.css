@@ -1,0 +1,44 @@
+#cards{
+
+  margin-top:25px;
+  height: 100%;
+  text-align: center;
+  max-width:100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+  
+  #cards .card {
+  display: inline-block;
+  vertical-align: middle;
+  
+  }
+  
+  .cardArrows{
+    height: 318px !important;
+    font-size: 3.5rem;
+    color: #19647E;
+    text-align: center;
+  }
+  
+  .cardArrows i{
+    cursor: pointer;
+  }
+
+  .arrowDisabled{
+    color: #efefef;
+  }
+  .arrowDisabled:hover{
+    color: #efefef !important;
+    cursor: default;
+  }
+
+  .cardArrows i:hover{
+    color: #E78973;
+  }
+  @media (min-width: 576px) {
+    .cardArrows i{
+      padding-top:159px !important; 
+    }
+  }

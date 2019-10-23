@@ -1,0 +1,144 @@
+@font-face { font-family: roboto; src: url('./assets/fonts/Roboto/Roboto-Regular.ttf'); } 
+@font-face { font-family: roboto; font-weight: bold; src: url('./assets/fonts/Roboto/Roboto-Bold.ttf');}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body, input, button{
+  font-family: 'Roboto', sans-serif;
+}
+
+.response{
+  font-size: 1.2rem;
+  list-style-type: none;
+  align-self: center;
+}
+
+
+/*Modal -----------------------------------------------------------------------*/
+.modal-dialog {
+  width: 96% !important;
+  max-width:1200px !important;
+}
+#multimediaModal{
+  padding-right: 0 !important;
+}
+
+
+.modal-body{
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.list-group a{
+  text-decoration: none;
+  background-color: #5398BE;
+  color: #FCFDFF;
+}
+
+ .list-group .active{
+  background-color: #4F6F8E !important;
+  color: #FCFDFF;
+  box-shadow: 1px 1px 1px 1px 20px 30px;
+}
+
+/*---------------------- MULTIMEDIA INTERFACE ----------------------*/
+.tab-pane{
+  text-align: center;
+}
+
+.tab-pane div{
+  margin: 10px;
+}
+
+/*---------------------- Cards ----------------------*/
+.card{
+  width: 18rem;
+  display: inline-block;
+}
+
+.card-body{
+  margin: 0 !important;
+  padding: 5px !important;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #FCFDFF;
+  border-bottom: rgb(230, 230, 230) 1px solid;
+  padding-top:10px;
+}
+
+.buttonsContainer{
+  text-align: center;
+}
+
+
+.card-title{
+  text-align: center;
+  color: #28536B;
+}
+
+.buttonsContainer i {
+  -webkit-transition: font-size 0.2s, color 0.3s; 
+  transition: font-size 0.2s, padding 0.2s, color 0.3s;
+  padding: 4px 0 8px 0;
+  cursor: pointer;
+  font-size: 2.5rem;
+  display: inline-block;
+}
+
+.buttonsContainer i:hover {
+  cursor: pointer;
+}
+
+.fa-check-square{
+  color: rgb(66, 163, 95);
+}
+
+.fa-trash-alt{
+  color: rgb(226, 9, 9);
+}
+
+.fa-volume-up, .fa-video{
+  color: #19647E;
+}
+
+.fa-volume-up:hover, .fa-video:hover{
+  color: #E78973;
+  cursor: default;
+}
+
+/*Admin Navigation Menu ------------------------------------------------------------------*/
+
+.adminMenu{
+  font-size:1.2em;
+  background-color: #01213A;
+}
+.adminMenu a{
+  color: #FCFDFF;
+  text-decoration: none !important;
+}
+.adminMenu a:hover{
+  color: #E78973;
+}
+.dropdown-menu a{
+  color: #187F8D;
+}
+
+.loading{
+  text-align: center;
+  color: #5398BE;
+  font-size: 3rem;
+  margin: 25px auto;
+}
+

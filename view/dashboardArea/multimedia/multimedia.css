@@ -1,0 +1,16 @@
+
+.multimedia-to-bottom{
+    position: absolute;
+    bottom:10px;
+    left: 0;
+    
+}
+
+.multimedia-to-bottom a{
+    background-color: #5398BE;
+    color: #FCFDFF !important;
+}
+.multimedia-to-bottom a:hover{
+    background-color: #4F6F8E;
+    color:#FCFDFF !important;
+  }

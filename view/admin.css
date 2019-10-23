@@ -1,0 +1,186 @@
+@font-face { font-family: roboto; src: url('../fonts/Roboto/Roboto-Regular.ttf'); } 
+@font-face { font-family: roboto; font-weight: bold; src: url('../fonts/Roboto/Roboto-Bold.ttf');}
+
+@media (min-height: 778px) {
+  .to-bottom{
+    position: absolute;
+    bottom:10px;
+    left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .modal-overflow{
+    height: 28rem;
+  } 
+}
+@media (min-width: 1200px) {
+  .modal-overflow{
+    height: 29rem;
+  }
+}
+@media (max-width: 1776px) {
+  .menuList a:nth-of-type(2){
+    border-right: none;
+  }
+}
+
+@media (max-width: 1044px) {
+  .menuList a:first-child{
+    border-right: none;
+  }
+}
+
+html{
+  height: 100%;
+}
+body{
+  font-family: 'roboto', sans-serif;
+  background-color: #FCFDFF;
+}
+
+#main-container .table-responsive{
+  max-height: 80%;
+}
+
+
+.t-dark{
+  color: #01213A;
+}
+.t-turquoise{
+  color: #187F8D;
+}
+.t-turquoise:hover{
+  color: #E78973;
+}
+.t-mint{
+  color: #92CABC;
+}
+.t-yellow{
+  color: #FCFDFF;
+}
+.t-yellow:hover{
+  color: #E78973;
+}
+.t-orange{
+  color: #E78973;
+}
+
+.btn-outline-blue{
+  border: solid 1px #01213A;
+  color: #01213A;
+}
+
+.btn-outline-blue:hover{
+  border: solid 1px #187F8D;
+  color: #FCFDFF;
+  background-color: #187F8D;
+}
+
+.form-control, input, label, select, ::placeholder{
+  color: #01213A !important;
+  opacity: 1;
+}
+
+/*Admin Navigation Menu ------------------------------------------------------------------*/
+
+.adminMenu{
+  font-size:1.2em;
+  background-color: #01213A;
+}
+.adminMenu a{
+  color: #FCFDFF;
+  text-decoration: none !important;
+}
+.adminMenu a:hover{
+  color: #E78973;
+}
+.dropdown-menu a{
+  color: #187F8D;
+}
+
+/*Página de Estrutura-------------------------------------------------------------*/
+
+#divInterface{
+  border: solid 1px;
+  border-radius: 3px;
+  border-color: #737373;
+  background-color: #fff;
+  margin-top: 3.6vh;
+}
+#main-container{
+  height: 80vh;
+  border-right: solid 1px;
+  border-color: #737373;
+}
+
+#right-panel{
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.menuList a{
+  font-size: 1em;
+  width: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px;
+  border-right: solid 1px;
+  border-color:#18688d;
+  color: #FCFDFF;
+  background-color: #5398BE;
+  text-decoration: none;
+}
+
+
+.menuList a:last-child {
+  border-right:none;
+}
+.menuList a:hover{
+  background-color: #4F6F8E;
+  color:#FCFDFF;
+}
+
+.to-bottom a{
+  background-color: #5398BE;
+  color: #FCFDFF;
+}
+.to-bottom a:hover{
+  background-color: #4F6F8E;
+  color:#FCFDFF;
+}
+
+
+
+#listCategory, #listItem{
+  height: 68vh;
+  overflow-y: auto; 
+}
+
+#editItemList{
+  height: 68vh;
+  overflow-y: auto; 
+}
+
+#editCategoryList{
+  height: 66vh;
+  overflow-y: auto; 
+}
+
+/*Página Multimidias------------------------------------------------------------*/
+#divListingMultimedias{
+  padding: 0 !important;
+  background: #5398BE;
+}
+
+
+#divListingMultimedias a:hover{
+  border:#fff;
+  background-color: #4F6F8E;
+  color: #fff !important;
+}
+
+#listItem span, #listCategory span{
+  overflow: hidden;
+  white-space: nowrap; /* Don't forget this one */
+  text-overflow: ellipsis;
+}

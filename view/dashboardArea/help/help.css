@@ -1,0 +1,19 @@
+#help{
+    background-color:#4F6F8E;
+}
+
+#helpList .list-group-item {
+    color: #fff;
+  }
+
+#helpList .list-group-item:hover, #helpList .active {
+    color: #fff !important;
+    border: #4F6F8E;
+    background-color: #18688d !important;
+  }
+  
+#tableItem th, #tableItem td{
+    text-align: center;
+    margin-top: 15px;
+}
+  

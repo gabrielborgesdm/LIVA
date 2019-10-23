@@ -1,0 +1,88 @@
+
+	#conteudoInterna {
+		background:#fff;
+		clear:both;
+		float:left;
+		min-height:435px;
+		min-width: 1005px;
+		max-width:1005px;
+		border: #252525 2px solid;
+		border-radius: 3px;
+	}
+
+	#conteudoInterna input{
+		-webkit-transition: margin-top 2s; /* Safari prior 6.1 */
+  		transition: margin-top 0.2s, padding-bottom 0.2s;
+	}
+
+	#conteudoInterna input:active{
+		margin-top: -10px;
+		padding-bottom: 10px;
+	}	
+
+	/*CONTENT BUTTONS*/
+	#contentButtons {
+		float:left;
+		margin:60px 20px 0 20px;
+		width:970px;
+	}
+
+	#contentButtons2 {
+		float:left;
+		margin:20px 20px 0 20px;
+		width:970px;
+	}
+
+	.btFalar {
+		float: right;
+		margin: 20px 15px 0 0;
+	}
+		
+	/*BOX TEXT*/
+	#label {
+		background:url(../assets/icons/bg_text.jpg) no-repeat;
+		color:#252525;
+		float:left;
+		font:17px Arial, Helvetica, sans-serif;
+		height:125px;
+		margin: 20px 0 0 20px;
+		padding:10px 15px;
+		overflow:auto; 
+		overflow-y:hidden;
+		text-align: justify;
+		width:623px;			
+	}
+
+	/*BOX LEFT*/
+	#boxLeft {
+		float:left;
+		width:150px;
+	}
+
+	#boxLeft input {
+		margin:0 0 10px 6px;
+	}
+
+	/*BOX CENTER*/
+	#boxCenter {
+		float:left;
+		margin-left:22px;
+		width:590px;
+	}
+
+	#boxCenter input {
+		float: left;
+		margin: 0 10px 12px 0;
+	}
+
+	/*BOX RIGHT*/
+	#boxRight {
+		float:right;
+		width:178px;
+	}
+
+	#boxRight input {
+		margin-bottom: 12px;
+	}
+	
+	

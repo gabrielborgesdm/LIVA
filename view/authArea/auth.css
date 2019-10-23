@@ -1,0 +1,15 @@
+.container-access{
+    background-image: radial-gradient(#92CABC, #01213A);
+    height: 100%;
+}
+
+#divLogin, #divSignUp{
+    border-radius: 3px;
+    border: solid 1px;
+    background-color: #FFF;
+    top:20vh;
+}
+
+#divLogin p a, #divSignUp p a{
+    color: #187F8D;
+}
