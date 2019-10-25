@@ -6,10 +6,10 @@
     <?php include 'navigationMenu.php'?>
     <div class="row">
       <div class="col-12 response pt-4 text-center">
-        <h1 class="col-12" id="itemTitle"></h1>
-        <p class="lead col-12" id="itemDescription"></p>
-        <video class="col-sm-10 col-md-6 mx-auto" id="itemVideo" controls autoplay loop>
-          <source src="../assets/multimedia/videos/fdasd20190907.mp4" class="embed-responsive-item" type="video/mp4">
+        <h1 id="itemTitle"></h1>
+        <p id="itemDescription"></p>
+        <audio class="d-block mx-auto mb-2"id="itemAudio" controls></audio>
+        <video class="col-sm-10 col-md-4 mx-auto" id="itemVideo" controls autoplay loop>
         </video>
       </div>
     </div>

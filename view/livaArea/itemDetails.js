@@ -7,6 +7,7 @@ const crud = new Crud();
 $(document).ready(function () {
     let item = getItems();
     appendToHtml(item);
+    
 });
 
 $(document).on('click', '.listenButton', function () {
@@ -36,7 +37,9 @@ function getItems() {
 function appendToHtml(item){
     $("#itemTitle").html(item.name);
     $("#itemDescription").html(item.description);
-    $("#itemVideo source").attr("src",`../${item.videoDirectory}`);
+    $("#itemVideo").append(`<source src="../${item.videoDirectory}" class="embed-responsive-item" type="video/mp4">`)
+    $("#itemAudio").append(`<source src="../${item.soundDirectory}" type="audio/mpeg">`)
+    
 }
 
 
