@@ -1,7 +1,7 @@
 # LIVA - Acessibilidade interativa com LIBRAS
 
 ## O que é a aplicação?
-	A aplicação utiliza conceitos e técnicas relacionadas às tecnologias assistivas e agrega, em suas
+A aplicação utiliza conceitos e técnicas relacionadas às tecnologias assistivas e agrega, em suas
 funcionalidades, o uso da Língua Brasileira de Sinais, uma linguagem gestual, como meio de comunicação alternativo à
 comunicação oral. Espera-se que o resultado deste trabalho, em fase de finalização, contribua efetivamente para apoiar a
 comunicação e interação das pessoas com deficiência na comunicação oral, bem como permita que essas pessoas
