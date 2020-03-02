@@ -10,8 +10,8 @@ comunicação oral. Espera-se que o resultado deste trabalho, em fase de finaliz
 comunicação e interação das pessoas com deficiência na comunicação oral, bem como permita que essas pessoas
 conheçam e aprendam outras formas de comunicação.
 
-## Instalação:
-Para a instalação da aplicação é necessário um servidor Apache funcionando em conjunto com um Banco de dados MySql.
-O arquivo de conexão com o banco de dados está localizado em /model/Crud.php e para que a aplicação funcione de maneira adequada,
-recomenda-se que os arquivos fiquem dentro da pasta chamada "LIVA".
- 
+## Installation:
+1. Put the files on your server.
+2. Update database connection config inside of /model/Crud.php
+3. It is highly recommended for all of the files to be inside of a dir called "LIVA", otherwise the application may have problems
+
