@@ -1,7 +1,7 @@
 # LIVA - Acessibilidade interativa com LIBRAS
 
 ## About the application
-It makes possible to people with communication problems express what they're feeling through multimedia cards. Each card has a video, audio and a sound that can play in order to tell people what you want, for example, you can have a category card named "juices" and inside of it an item called "orange juice". The purpose of each media is to help learning Brazilian Sign Languages (LIBRAS), but since each card is dynamically created you can use them in any way you want.
+It makes it possible for people with communication problems to express their feelings through multimedia cards. Cards have media that help with communication, for example, you can click on an orange juice inside of a drinks category to tell people you want a beverage. LIVA's purpose is to help with teaching Brazilian Sign Languages (LIBRAS). But it is possible to give the cards the use that most pleases you. 
 
 ## O que é a aplicação?
 A aplicação utiliza conceitos e técnicas relacionadas às tecnologias assistivas e agrega, em suas
