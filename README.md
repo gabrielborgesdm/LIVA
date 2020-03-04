@@ -6,7 +6,7 @@ It makes possible to people with communication problems express what they were f
 ## O que é a aplicação?
 A aplicação utiliza conceitos e técnicas relacionadas às tecnologias assistivas e agrega, em suas
 funcionalidades, o uso da Língua Brasileira de Sinais, uma linguagem gestual, como meio de comunicação alternativo à
-comunicação oral. Espera-se que o resultado deste trabalho, em fase de finalização, contribua efetivamente para apoiar a
+comunicação oral. Espera-se que o resultado deste trabalho contribua efetivamente para apoiar a
 comunicação e interação das pessoas com deficiência na comunicação oral, bem como permita que essas pessoas
 conheçam e aprendam outras formas de comunicação.
 
